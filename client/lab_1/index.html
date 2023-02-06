@@ -1,31 +1,93 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jason Xu Lab 1</title>
 </head>
+
 <body>
-  
 </body>
+
 </html>
-include your HTML opening tags
-and your hidden "head" tag
-and your "title" tag
 
 
-full-width wrapper div
-  header containing: YOUR NAME's Labs For INST377
-  container div
-      left div
-        sub-header saying "albums"
-        Your top 5 albums in an ordered list
-      right div (main div for the site)
-        sub-header saying "image carousel"
-          div to contain four images
-            four images of mochi from your readings, all square (they're four different image types!)
-          div to contain a description or text
-            description of images
+
+<html>
+
+<head>
+  <style>
+    .full-width-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+    }
+
+    header {
+      width: 100%;
+      text-align: left;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .album {
+      width: 100%;
+      text-align: left;
+      font-size: 25px;
+      font-weight: bold;
+       margin-bottom: 20px;
+    }
+
+    .github {
+      width: 100%;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="full-width-wrapper">
+    <header>Jason Xu's Labs For INST377 </header>
+    <div class="album">
+      <div>
+        Album Names
+      </div>
+    </div>
+    <ol>
+      <li>Blonde - Frank Ocean </li>
+      <li>1989 - Taylor Swift</li>
+      <li>Pure Heroine - Lorde</li>
+      <li>Anti - Rihanna</li>
+      <li>Red - Taylor Swift</li>
+    </ol>
+
+    <div class="album">
+    <div>Image Carousel</div>
+</div>
+    <div class="images">
+      <img src="mochi.gif" width="150" height="150">
+      <img src="mochi.jpg" width="150" height="150">
+      <img src="mochi.png" width="150" height="150">
+      <img src="mochi.svg" width="150" height="150">
+    </div>
+    <div class="description">
+      Above are four square images of mochi with differing imaging types (.gif,
+      .jpg, .png, .svg)
+    </div>
+    <div class = "github"> 
+     
+      GitHub name: jaasonx 
+      <a href="https://github.com/jaasonx/INST377-Lab-Work">My GitHub Profile</a>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
 
 
-full-width page footer containing your github account name and a link to your gitHub account
