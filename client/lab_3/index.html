@@ -17,54 +17,42 @@
 
 <html>
 
-<head>
-    <style>
-        .album {
-            width: 100%;
-            font-size: 25px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
 
 <body>
     <div class="header_h1 container">
         <header>Jason Xu's Labs For INST377 </header>
     </div>
-    <div class ="container">
-    <div class="box left_section">
-        <div class="album">
-            <div>
-                Album Names
+    <div class="container">
+        <div class="box left_section">
+            <h2> Album Names </h2>
+            <div class="box">
+                <ol>
+                    <li>Blonde - Frank Ocean </li>
+                    <li>1989 - Taylor Swift</li>
+                    <li>Pure Heroine - Lorde</li>
+                    <li>Anti - Rihanna</li>
+                    <li>Red - Taylor Swift</li>
+                </ol>
             </div>
         </div>
-        <div class="box">
-            <ol>
-                <li>Blonde - Frank Ocean </li>
-                <li>1989 - Taylor Swift</li>
-                <li>Pure Heroine - Lorde</li>
-                <li>Anti - Rihanna</li>
-                <li>Red - Taylor Swift</li>
-            </ol>
+        <div class="right_section box">
+            <h2>Image Carousel</h2>
+            <div class="carousel">
+                <button class="prev">prev </button>
+                <div class="slides">
+                    <img class="carousel_item visible"
+                        src="Blonde_-_Frank_Ocean.jpeg">
+                    <img class="carousel_item hidden"
+                        src="Graduation_(album).jpg">
+                    <img class="carousel_item hidden" src="Stoneyalbum.jpg">
+                    <img class="carousel_item hidden" src="s-l500.jpg">
+                </div>
+                <button class="next">next </button>
+            </div>
+            <div class="description box">
+                Above are four of my favorite albums
+            </div>
         </div>
-    </div>
-    <div class="box right_section">
-        <div class="album">
-            <div>Image Carousel</div>
-        </div>
-        <div class="images grid">
-            <img src="Blonde_-_Frank_Ocean.jpeg" width="150" height="150">
-            <img src="Graduation_(album).jpg" width="150" height="150">
-            <img src="Stoneyalbum.jpg" width="150" height="150">
-            <img src="s-l500.jpg" width="150" height="150">
-        </div>
-        <div class="description box">
-            Above are four square images of mochi with differing imaging types
-            (.gif,
-            .jpg, .png, .svg)
-        </div>
-    </div>
     </div>
     <div class="footer subtitle">
         GitHub name: jaasonx
@@ -74,6 +62,7 @@
         </div>
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
