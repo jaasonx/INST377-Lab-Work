@@ -87,7 +87,7 @@ form {
   Those rules won't apply to an h1 that's outside a block with the class of 'header'
 */
 
-.header h1 {
+.header_h1 {
   display: block;
   /* this will push other blocks out of the way */
 
@@ -156,7 +156,7 @@ form {
   font-weight: 600;
 }
 
-.footer a {
+.footer_a {
   color: rgba(255, 224, 138, 1);
   text-decoration: underline;
 }
@@ -166,7 +166,7 @@ form {
   In this instance, it says what to do if a mouse hovers over a link
   This is pretty desktop-specific, since there's no hover function on touchscreens
 */
-.footer a:hover {
+.footer_a:hover {
   /* Hue, saturation, luminosity, alpha */
   background-color: hsla(0, 0%, 90%, 0.15);
   /* red, green, blue, alpha */
