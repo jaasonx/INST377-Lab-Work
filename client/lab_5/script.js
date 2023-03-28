@@ -21,8 +21,12 @@ async function mainEvent() { // the async keyword means we can make API requests
 
   /* We need to listen to an "event" to have something happen in our page - here we're listening for a "submit" */
   mainForm.addEventListener('submit', async (submitEvent) => { // async has to be declared on every function that needs to "await" something
-    submitEvent.preventDefault(); // This prevents your page from becoming a list of 1000 records from the county, even if your form still has an action set on it
-    console.log('form submission'); // this is substituting for a "breakpoint" - it prints to the browser to tell us we successfully submitted the form
+    
+    // This prevents your page from becoming a list of 1000 records from the county, even if your form still has an action set on it
+    submitEvent.preventDefault(); 
+    
+    // this is substituting for a "breakpoint" - it prints to the browser to tell us we successfully submitted the form
+    console.log('form submission'); 
 
     /*
       ## GET requests and Javascript
