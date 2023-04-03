@@ -97,7 +97,7 @@ async function mainEvent() {
 }
 
 /*
-  This last line actually runs first!
+  This last line actually runs first
   It's calling the 'mainEvent' function at line 57
   It runs first because the listener is set to when your HTML content has loaded
 */
